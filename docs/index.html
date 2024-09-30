@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/dino.png" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie Flower">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM Plex Mono">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TcharlyMusic Website</title>
+    </head>
+    <body>
+        <div id="main-page">
+            <div id="cards-container">
+                <div id="hello-card" class="card">
+                    <div class="hello-text">
+                        <h1 class="hello-title">Hi, I'm DaiF</h1>
+                        <h2 class="subtitle">A french student in computer science</h2>
+                    </div>
+                    <div class='house-container'>
+                        <div class='house'></div>
+                        <div class='house-side left-side'></div>
+                        <div class='house-top left-side'></div>
+                        <div id="hello-dino" class='dino'></div>
+                        <div class='house-side right-side'></div>
+                    </div>
+                    <div id="down-arrow">
+                        <p>Scroll Down</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                    </div>
+                </div>
+                <div id="about-card" class='card'>
+                    <div id="about-dino" class='dino'></div>
+                    <div class='about-desc'>
+                        <h1>About Me</h1>
+                        <p>Line 1</p>
+			<p>Line 2</p>
+			<p>Line 3</p>
+		    </div>
+                </div>
+                <div id="projects-card" class='card'>
+                    <h1>On this Website</h1>
+                    <div id="project-wall">
+                        <a class="project" href="https://daif1.github.io/DaiFsLittleShaders/">
+                            <p class="project-title">DaiF's Little Shaders</p>
+                            <img src="shaders.png" alt="demo-shaders"/>
+                            <p>A Website with all of my test shaders</p>
+                        </a>
+                        <a class="project" href="https://daif1.github.io/CreatureSandbox/">
+                            <p class="project-title">Creature Sandbox</p>
+                            <img src="creature.png" alt="demo-creature"/>
+                            <p>A little sandbox where you can create your own creatures</p>
+                        </a>
+                        <button id="project-arrow-left" class="project-arrow">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="50pt" viewBox="0 0 256 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"/></svg>
+                        </button>
+                        <button id="project-arrow-right" class="project-arrow">
+                          <svg xmlns="http://www.w3.org/2000/svg" height="50pt" viewBox="0 0 256 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
+
